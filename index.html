@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GDEV GIS Training</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 460px;
+      text-align: center;
+      animation: fadeIn 0.8s ease-in;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #1e3a8a;
+    }
+
+    .highlight {
+      color: #e11d48;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1e40af;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .info {
+      margin: 1rem 0;
+    }
+
+    .shout-box {
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 0.8rem 1rem;
+      margin: 0.5rem auto;
+      border-radius: 12px;
+      color: white;
+      background: linear-gradient(145deg, #1e3a8a, #3b82f6);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), inset 0 -2px 2px rgba(255,255,255,0.2);
+      text-shadow: 1px 1px 2px black;
+      max-width: 300px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 0.5rem 0.4rem;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>GDEV WEEKLY SESSIONS</h1>
+    <p class="highlight">Starts: Tomorrow (Wednesday)</p>
+    <p><span class="tag">This Week: Create Your First GIS Map</span></p>
+
+    <div class="info">
+      <div class="shout-box">⏰ Time: 5:00 PM – 6:00 PM</div>
+      <div class="shout-box"> Venue: Carto Lab, DeKUT</div>
+    </div>
+
+    <p>Open to all <strong>GDEV Members</strong>.</p>
+
+    <div>
+      <a href="https://forms.gle/FnyYWFk7orf7Jw6q7" class="btn" target="_blank">Join GDEV</a>
+      <a href="https://forms.gle/ysTbfTL1DieNqdCZ7" class="btn" target="_blank">Confirm Availability</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 GDEV Club – Dedan Kimathi University
+  </footer>
+
+</body>
+</html
